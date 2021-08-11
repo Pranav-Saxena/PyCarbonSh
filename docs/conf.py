@@ -35,7 +35,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinxcontrib_trio',
-    'sphinx.ext.currentmodule'
+    'sphinx.ext.currentmodule',
     'details',
     'exception_hierarchy',
     'attributetable',
