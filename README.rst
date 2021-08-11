@@ -2,9 +2,10 @@
 PyCarbonSh 
 ***********
 
-.. image:: https://github.com/Pranav-Saxena/PyCarbonSh/blob/main/pycarbonsh.png
+.. image:: https://cdn.discordapp.com/attachments/862939982837317672/875030619606888458/pycarbonsh.png
     :align: center
-    :alt: pycarbonsh
+    :target: https://github.com/Pranav-Saxena/PyCarbonSh/
+    :alt: PyCarbonSh
 
 *The Asynchronous web-scraper for carbon.now.sh which helps to create and share beautiful pics of your code!*
 
@@ -15,11 +16,21 @@ PyCarbonSh
 .. image:: https://img.shields.io/pypi/v/pycarbonsh.svg
    :target: https://pypi.python.org/pypi/pycarbonsh
    :alt: PyPI version info
+
 .. image:: https://img.shields.io/pypi/pyversions/pycarbonsh.svg
    :target: https://pypi.python.org/pypi/pycarbonsh
    :alt: PyPI supported Python versions
+.. image:: https://img.shields.io/pypi/dm/pycarbonsh.svg
+   :target: https://pypi.python.org/pypi/pycarbonsh
+   :alt: Downloads
 .. image:: https://img.shields.io/github/license/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
     :target: LICENSE
+.. image:: https://img.shields.io/github/stars/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
+    :alt: Stars
+.. image:: https://img.shields.io/github/forks/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
+    :alt: forks
+.. image:: https://img.shields.io/github/stars/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
+    :alt: Stars
 
 Documentation
 ---------------------------
