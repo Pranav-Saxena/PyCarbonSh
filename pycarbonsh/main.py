@@ -77,4 +77,6 @@ async def generatecarbon(path="",code="Made with ❤ by Pranav Saxena",bg ="rgba
         path = f"{path}/carbon.png"
     await element.screenshot({'path': f"{path}"})
     await browser.close()
+    if path =="carbon.png":
+        path = str(os.getcwd())+"\\"+"carbon.png"
     print(f"Carbon has been generated and saved at {path}")
