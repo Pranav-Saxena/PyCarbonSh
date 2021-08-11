@@ -5,7 +5,7 @@ requirements = []
 with open('requirements.txt',"r",encoding="utf-8") as f:
   requirements = f.read().splitlines()
 
-version = '0.1.0'
+version = '101.1.0'
 readme = ''
 with open('README.rst',"r",encoding="utf-8") as f:
     readme = f.read()
