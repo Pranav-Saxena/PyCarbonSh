@@ -77,74 +77,7 @@
       </nav>
     </header>
     {#- The sub-header with search and extension related selection #}
-    <div class="sub-header grid-item">
-      <label for="documentation_select">{{ _('View Documentation For') }}</label>
-      <select id="documentation_select" onchange="window.location = this.value;">
-        {%- if pagename is prefixedwith 'ext/' %}
-        <option value="{{ pathto(master_doc)|e }}">discord</option>
-        {%- else %}
-        <option value="{{ pathto(pagename) }}" selected>discord</option>
-        {%- endif %}
-        {%- for ext, p in discord_extensions %}
-        <option value="{{ pathto(p + '/index')|e }}" {% if pagename is prefixedwith p %}selected{% endif %}>{{ ext }}</option>
-        {%- endfor %}
-      </select>
-      <form role="search" class="search" action="{{ pathto('search') }}" method="get">
-        <div class="search-wrapper">
-          <input type="search" name="q" placeholder="{{ _('Search documentation') }}" />
-          <button type="submit">
-            <span class="material-icons">search</span>
-          </button>
-        </div>
-      </form>
-      <a accesskey="S" class="settings" onclick="settingsModal.open();"><span class="material-icons">settings</span></a>
-    </div>
-    {#- The sidebar component #}
-    <aside class="grid-item">
-      {%- if display_toc %}
-      <span id="hamburger-toggle">
-        <span class="material-icons">menu</span>
-      </span>
-      {%- endif %}
-      <span id="settings-toggle" class="settings" onclick="settingsModal.open();">
-        <span class="material-icons">settings</span>
-      </span>
-      <div id="sidebar">
-        {%- include "localtoc.html" %}
-      </div>
-    </aside>
-    {#- The actual body of the contents #}
-    <main class="grid-item" role="main">
-      {% block body %} {% endblock %}
-    </main>
-{%- block footer %}
-    <footer class="grid-item">
-    {%- if show_copyright %}
-      {%- if hasdoc('copyright') %}
-        {% trans path=pathto('copyright'), copyright=copyright|e %}&#169; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
-      {%- else %}
-        {% trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
-      {%- endif %}
-    {%- endif %}
-    {%- if last_updated %}
-      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
-    {%- endif %}
-    {%- if show_sphinx %}
-      {% trans sphinx_version=sphinx_version|e %}Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
-    {%- endif %}
-    </footer>
-{%- endblock %}
-  </div>
-  {%- if READTHEDOCS %}
-  <script>
-    if (typeof READTHEDOCS_DATA !== "undefined") {
-        if (!READTHEDOCS_DATA.features) {
-          READTHEDOCS_DATA.features = {};
-        }
-        READTHEDOCS_DATA.features.docsearch_disabled = true;
-      }
-  </script>
-  {%- endif %}
+    
 
   <div id="settings" class="modal" onclick="if (event.target == this){ settingsModal.close(); }" hidden>
     <div class="modal-content">
