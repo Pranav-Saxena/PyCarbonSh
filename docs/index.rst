@@ -1,6 +1,4 @@
 
-.. currentmodule:: PyCarbonSh
-
     Welcome to PyCarbonSh's Documentation
     ======================================
     .. image:: /images/pycarbonsh.png

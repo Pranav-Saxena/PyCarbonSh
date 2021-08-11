@@ -275,10 +275,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-# latex_documents = [
-#   ('index', 'discord.py.tex', 'discord.py Documentation',
-#    'Rapptz', 'manual'),
-# ]
+latex_documents = [
+  ('master_doc', 'pycarbonsh.tex', 'PyCarbonSh Documentation',
+   'Pranav Saxena', 'manual'),
+]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -305,10 +305,10 @@ latex_elements = {
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-# man_pages = [
-#     ('index', 'discord.py', 'discord.py Documentation',
-#      ['Rapptz'], 1)
-# ]
+man_pages = [
+    (master_doc, 'pycarbonsh', 'PyCarbonSh Documentation',
+     [author], 1)
+]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -319,11 +319,12 @@ latex_elements = {
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-# texinfo_documents = [
-#   ('index', 'discord.py', 'discord.py Documentation',
-#    'Rapptz', 'discord.py', 'One line description of project.',
-#    'Miscellaneous'),
-# ]
+texinfo_documents = [
+    (master_doc, 'PyCarbonSh', 'PyCarbonSh Documentation',
+     author, 'PyCarbonSh', 'One line description of project.',
+     'Miscellaneous'),
+]
+
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
