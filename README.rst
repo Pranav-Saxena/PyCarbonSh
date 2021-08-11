@@ -2,7 +2,7 @@
 PyCarbonSh 
 ***********
 
-.. image:: pycarbonsh.png?raw=True
+.. image:: https://github.com/Pranav-Saxena/PyCarbonSh/blob/main/pycarbonsh.png
     :align: center
     :alt: pycarbonsh
 
