@@ -12,17 +12,12 @@ PyCarbonSh
 .. image:: https://discord.com/api/guilds/833364768076988458/embed.png
    :target: https://discord.gg/tTr6DvyRCH
    :alt: Discord server invite
-
 .. image:: https://img.shields.io/pypi/v/pycarbonsh.svg
    :target: https://pypi.python.org/pypi/pycarbonsh
    :alt: PyPI version info
-
 .. image:: https://img.shields.io/pypi/pyversions/pycarbonsh.svg
    :target: https://pypi.python.org/pypi/pycarbonsh
    :alt: PyPI supported Python versions
-.. image:: https://img.shields.io/pypi/dm/pycarbonsh.svg
-   :target: https://pypi.python.org/pypi/pycarbonsh
-   :alt: Downloads
 .. image:: https://img.shields.io/github/license/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
     :target: LICENSE
 .. image:: https://img.shields.io/github/stars/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
