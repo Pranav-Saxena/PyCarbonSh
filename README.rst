@@ -24,8 +24,7 @@ PyCarbonSh
     :alt: Stars
 .. image:: https://img.shields.io/github/forks/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
     :alt: forks
-.. image:: https://img.shields.io/github/stars/Pranav-Saxena/PyCarbonSh?color=2b9348.svg
-    :alt: Stars
+
 
 Documentation
 ---------------------------
