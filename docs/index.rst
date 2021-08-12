@@ -1,214 +1,210 @@
     
-    Welcome to PyCarbonSh's Documentation
-    ======================================
-    .. image:: /images/pycarbonsh.png
-    The Asynchronous web-scraper for carbon.now.sh which helps to create and share beautiful pics of your code!
+Welcome to PyCarbonSh's Documentation
+======================================
+.. image:: /images/pycarbonsh.png
+The Asynchronous web-scraper for carbon.now.sh which helps to create and share beautiful pics of your code!
     
 
     
-    **Features:**
-    - Easy to Use
-    - It's Asynchronous so won't block your code execution
-    - Lots of options for customization
+**Features:**
+- Easy to Use
+- It's Asynchronous so won't block your code execution
+- Lots of options for customization
     
-    Support
-    --------------
+Support
+--------------
     
-    If you're having trouble with something, these resources might help.
-    - Ask us and hang out with us in our `Support Server<http://discord.gg/tTr6DvyRCH>` on `Discord <https://discordapp.com/>`.
-    - If you're looking for something specific, try the :ref:`index <genindex>` or :ref:`searching <search>`.
-    - Report bugs in the `issue tracker <https://github.com/Pranav-Saxena/PyCarbonSh/issues>`.
-    - Ask in our `GitHub discussions page <https://github.com/Pranav-Saxena/PyCarbonSh/discussions/>`.
+If you're having trouble with something, these resources might help.
+- Ask us and hang out with us in our `Support Server <http://discord.gg/tTr6DvyRCH>` on `Discord <https://discordapp.com/>`.
+- If you're looking for something specific, try the :ref:`index <genindex>` or :ref:`searching <search>`.
+- Report bugs in the `issue tracker <https://github.com/Pranav-Saxena/PyCarbonSh/issues>`.
+- Ask in our `GitHub discussions page <https://github.com/Pranav-Saxena/PyCarbonSh/discussions/>`.
     
-    Installation
-    ---------------
-    The following commands are currently the valid ways of installing PyCarbonSh.
+Installation
+---------------
+The following commands are currently the valid ways of installing PyCarbonSh.
 
-    Through pip
-    ########
+Through pip
+############
 
-    **Windows**
+**Windows**
 
-    .. code:: sh
+.. code:: sh
 
-        pip install pycarbonsh
+    pip install pycarbonsh
 
-    **Linux/MacOS**
+**Linux/MacOS**
 
-    .. code:: sh
+.. code:: sh
 
-        pip3 install pycarbonsh
+    pip3 install pycarbonsh
 
-    Manual Installation
-    ########
-    - ``git clone https://github.com/Pranav-Saxena/PyCarbonSh/``
-    - ``setup.bat``
-    - ``venv\scripts\activate``
-    - ``pycarbonsh``
+Manual Installation
+####################
+- ``git clone https://github.com/Pranav-Saxena/PyCarbonSh/``
+- ``setup.bat``
+- ``venv\scripts\activate``
+- ``pycarbonsh``
 
-    Getting Started
-    ----------------------------
+Getting Started
+----------------------------
     
-    A quick and easy example to get started with PyCarbonSh
+A quick and easy example to get started with PyCarbonSh
     
-    .. code:: py
+.. code:: py
     
-        from pycarbonsh import generatecarbon
-        import asyncio
-        loop = asyncio.get_event_loop()
-        loop.run_until_complete(generatecarbon(code="Made with ❤ by Pranav Saxena"))    
+    from pycarbonsh import generatecarbon
+    import asyncio
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(generatecarbon(code="Made with ❤ by Pranav Saxena"))    
 
 
-    Parameters
-    ------------
-    The parameters available for customization are listed below!!
+Parameters
+------------
+The parameters available for customization are listed below!!
 
-    path
-    ~~~~~
-    Required(str)
+path
+~~~~~
+Required(str)
 
-    The Location where the filed will be saved (don't add filename to it)
+The Location where the filed will be saved (don't add filename to it)
 
-    Example:
-    .. code::
-        C:/Users/Pranav/Desktop
+Example:
+.. code::
+    C:/Users/Pranav/Desktop
     
-    code
-    ~~~~~
-    optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "Made with ❤ by Pranav Saxena"
+code
+~~~~~
+optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "Made with ❤ by Pranav Saxena"
 
-    The code for whose image you want to generate.
+The code for whose image you want to generate.
 
-    bg
-    ~~~~
-    optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "rgba(74, 144, 226, 100)"
+bg
+~~~~
+optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "rgba(74, 144, 226, 100)"
 
-    The background colour of the image. 
+The background colour of the image. 
     
-    Should be of the format "rgba(<number>,<number>,<number>,<number>)" or "#<hexcode>"
+Should be of the format "rgba(<number>,<number>,<number>,<number>)" or "#<hexcode>"
 
-    fontSize
-    ~~~~~~~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "14px"
+fontSize
+~~~~~~~~~~~~~~~
+Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "14px"
 
-    The Font Size of code in the image 
+The Font Size of code in the image 
+Should be of the format "<fontsize>px"
 
-    Should be of the format "<fontsize>px"
+fontfamily
+~~~~~~~~~~~
+Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "Hack" fontfamily
 
-    fontfamily
-    ~~~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "Hack" fontfamily
+The Font Family for code in the image
+Get List of Available FontFamilies `Here <addlink>`
+theme
+~~~~~~
+Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "seti" theme
 
-    The Font Family for code in the image
+Theme of the Image
+Get List of Available Themes `Here <addlink>`
 
-    Get List of Available FontFamilies `Here <addlink>`
-
-    theme
-    ~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "seti" theme
-
-    Theme of the Image
-
-    Get List of Available Themes `Here <addlink>`
-
-    exportsize
-    ~~~~~~~~~~~~~
+exportsize
+~~~~~~~~~~~~~
     Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) -->Defaults to "2x"
 
     The size of Image to be saved
 
     Should be in ["1x","2x","4x"]
 
-    language
-    ~~~~~~~~~
+language
+~~~~~~~~~
     Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "auto"
 
     The Programming Language of the code in the image.
 
     Get List of Available Languages `Here <addlink>`
 
-    widthAdjustment
-    ~~~~~~~~~~~~~~~~
+widthAdjustment
+~~~~~~~~~~~~~~~~
     Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to True
     
     Parameter to enable/disable autowithadjustment of image according to size of the code.
 
-    linenumbers
-    ~~~~~~~~~~~~~~~~
+linenumbers
+~~~~~~~~~~~~~~~~
     Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to False
     
     Parameter to enable/disable linenumbers for code in the image
 
-    firstlinenumber
-    ~~~~~~~~~~~~~~~~
+firstlinenumber
+~~~~~~~~~~~~~~~~
     Optional(`int<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to 1
 
     The number from which line numbers should start if linenumbers are enabled
     
-    lineheight
-    ~~~~~~~~~~~~~~~~~~
+lineheight
+~~~~~~~~~~~~~~~~~~
     Optional(`int<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to 130
 
     Spacing between lines
 
-    paddingvertical
-    ~~~~~~~~~~~~~~~~
+paddingvertical
+~~~~~~~~~~~~~~~~
     Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "56px"
 
     Should be of the format "<number>px"
 
     Space between borders and the code (for top and bottom)
 
-    paddingHorizontal
-    ~~~~~~~~~~~~~~~~~~
+paddingHorizontal
+~~~~~~~~~~~~~~~~~~
     Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "56px"
 
     Should be of the format "<number>px"
 
     Space between borders and the code (for left and right)
 
-    squaredImage
-    ~~~~~~~~~~~~~
+squaredImage
+~~~~~~~~~~~~~
     Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to False
 
     Enable/disable to get perfect square borders (Defaults to Rounded)
 
-    watermark
-    ~~~~~~~~~~~~~
+watermark
+~~~~~~~~~~~~~
     Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to False
 
     Enable/Disable watermark of `Carbon`
 
-    dropShadow
-    ~~~~~~~~~~~~~
+dropShadow
+~~~~~~~~~~~~~
     Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to True
 
     Enable/Disable shadow
 
-    dropShadowBlurRadius
-    ~~~~~~~~~~~~~~~~~~~~~~
+dropShadowBlurRadius
+~~~~~~~~~~~~~~~~~~~~~~
     Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "68px"
 
     Shadow Blur Radius
 
     Should be of the format "<number>px"
 
-    dropShadowOffsetY
-    ~~~~~~~~~~~~~~~~~~
+dropShadowOffsetY
+~~~~~~~~~~~~~~~~~~
     Optionalstr() --> Defaults to "20px"
 
     Shadow Offset Y
 
     Should be of the format "<number>px"
 
-    windowControls
-    ~~~~~~~~~~~~~~~~
+windowControls
+~~~~~~~~~~~~~~~~
     Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to True
 
     Enable/Disable Window Controls
 
-    windowTheme
-    ~~~~~~~~~~~~~
+windowTheme
+~~~~~~~~~~~~~
     Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to None
 
     Window Theme For the Image
@@ -216,12 +212,12 @@
     Get List of Available Window Themes `Here`
 
 
-    Available Options For Few Parameters
-    -------------------------------------
+Available Options For Few Parameters
+-------------------------------------
 
-    Font Family
-    ~~~~~~~~~~~~
-    Here is the List of Available Font Families!!
+Font Family
+~~~~~~~~~~~~
+Here is the List of Available Font Families!!
     
     Font Family Name to be written          Actual Font Family
     in the parameter while calling 
@@ -243,9 +239,9 @@
     -Space+Mono                              Space Mono
     -Ubuntu+Mono                             Ubuntu Mono
 
-    Themes
-    ~~~~~~~~~
-    Here is the list of Available Themes!
+Themes
+~~~~~~~~~
+Here is the list of Available Themes!
     
     -3024-night
     -a11y-dark
@@ -279,11 +275,11 @@
 
 
     
-    Languages
-    ~~~~~~~~~
-    You Can You use any programming language in parameters (full name)
+Languages
+~~~~~~~~~
+You Can You use any programming language in parameters (full name)
 
-    and the accepted aliases of the languages are mentioned below:
+and the accepted aliases of the languages are mentioned below:
      
      Alias          Language
     -htaccess       apache
@@ -414,38 +410,38 @@
 
 
 
-    Window Themes
-    ~~~~~~~~~~~~~~
-    Here is the list of available Window Themes
+Window Themes
+~~~~~~~~~~~~~~
+Here is the list of available Window Themes
     
     -none
     -sharp
     -bw
     -boxy
 
-    License
-    ---------
-    MIT License
+License
+---------
+MIT License
 
-    Copyright (c) 2021 PRANAV SAXENA
+Copyright (c) 2021 PRANAV SAXENA
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
