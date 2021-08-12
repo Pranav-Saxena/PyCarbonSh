@@ -1,7 +1,8 @@
-    
+**************************************
 Welcome to PyCarbonSh's Documentation
-======================================
+**************************************
 .. image:: /images/pycarbonsh.png
+
 The Asynchronous web-scraper for carbon.now.sh which helps to create and share beautiful pics of your code!
     
 
