@@ -251,7 +251,7 @@ Here is the list of Available Themes!
     
 .. csv-table:: 
    :file: /datafiles/themes.csv
-   :widths: 5
+   :width: 5
    :header-rows: 1
    
 
