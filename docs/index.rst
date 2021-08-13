@@ -239,60 +239,21 @@ Font Family
 ~~~~~~~~~~~~
 Here is the List of Available Font Families!!
     
-    Font Family Name to be written          Actual Font Family
-    in the parameter while calling 
-    the function
-
-    -MonoLisa                                MonoLisa
-    -dm                                      Dank Mono
-    -Anonymous+Pro                           Anonymous Pro
-    -Droid+Sans+Mono                         Droid Sans Mono
-    -Fantasque+Sans+Mono                     Fantasque Sans Mono
-    -Fira+Code                               Fira Code
-    -Hack                                    Hack
-    -IBM+Plex+Mono                           IBM Plex Mono
-    -Inconsolata                             Inconsolata
-    -Iosevka                                 Iosevka
-    -JetBrains+Mono                          JetBrains Mono
-    -Monoid                                  Monoid
-    -Source+Code+Pro                         Source Code Pro
-    -Space+Mono                              Space Mono
-    -Ubuntu+Mono                             Ubuntu Mono
+.. csv-table:: 
+   :file: /datafiles/fontfamily.csv
+   :widths: 5,5
+   :header-rows: 1
 
 
 Themes
 ~~~~~~~~~
 Here is the list of Available Themes!
     
-    -3024-night
-    -a11y-dark
-    -blackboard
-    -base16-dark
-    -base16-light
-    -cobalt
-    -dracula-pro
-    -duotone-dark
-    -hopscotch
-    -lucario
-    -material
-    -monokai
-    -night-owl
-    -nord
-    -oceanic-next
-    -one-light
-    -one-dark
-    -panda-syntax (panda)
-    -paraiso-dark
-    -seti
-    -shades-of-purple
-    -solarized+dark
-    -solarized+light
-    -synthwave-84
-    -twilight
-    -verminal
-    -vscode
-    -yeti
-    -zenburn
+.. csv-table:: 
+   :file: /datafiles/themes.csv
+   :widths: 5
+   :header-rows: 1
+   
 
 
     
