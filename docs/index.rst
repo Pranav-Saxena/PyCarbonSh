@@ -30,13 +30,26 @@ Through pip
 
 .. code:: sh
 
-    pip install pycarbonsh
+    py -3 -m pip install pycarbonsh
 
 **Linux/MacOS**
 
 .. code:: sh
 
-    pip3 install pycarbonsh
+    python3 -m pip3 install pycarbonsh
+To install master branch
+~~~~~~~~~~~~~~~~~~~~~~~~~
+**Windows**
+
+.. code:: sh
+
+    py -3 -m pip install -U git+https://github.com/Pranav-Saxena/PyCarbonSh@master
+
+**Linux/MacOS**
+
+.. code:: sh
+
+    python3 -m pip3 install -U git+https://github.com/Pranav-Saxena/PyCarbonSh@master
 
 Manual Installation
 ~~~~~~~~~~~~~~~~~~~
@@ -44,6 +57,11 @@ Manual Installation
 - ``setup.bat``
 - ``venv\scripts\activate``
 - ``pycarbonsh``
+
+Usage
+~~~~~~~
+.. note:: When you run pycarbonsh for the first time, it downloads the latest version of Chromium (~150MB) if it is not found on your system. If you don't prefer this behavior, ensure that a suitable Chrome binary is installed. One way to do this is to run ``pyppeteer-install`` command before prior to using this library.
+
 
 Getting Started
 ----------------------------
@@ -90,28 +108,28 @@ Should be of the format "rgba(<number>,<number>,<number>,<number>)" or "#<hexcod
 
 fontSize
 ~~~~~~~~~~~~~~~
-Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "14px"
+Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "14px"
 
 The Font Size of code in the image 
 Should be of the format "<fontsize>px"
 
 fontfamily
 ~~~~~~~~~~~
-Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "Hack" fontfamily
+Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "Hack" fontfamily
 
 The Font Family for code in the image
 Get List of Available FontFamilies `Here <addlink>`
 
 theme
 ~~~~~~
-Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "seti" theme
+Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "seti" theme
 
 Theme of the Image
 Get List of Available Themes `Here <addlink>`
 
 exportsize
 ~~~~~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) -->Defaults to "2x"
+    Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) -->Defaults to "2x"
 
     The size of Image to be saved
 
@@ -119,7 +137,7 @@ exportsize
 
 language
 ~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "auto"
+    Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "auto"
 
     The Programming Language of the code in the image.
 
@@ -127,31 +145,31 @@ language
 
 widthAdjustment
 ~~~~~~~~~~~~~~~~
-    Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to True
+    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to True
     
     Parameter to enable/disable autowithadjustment of image according to size of the code.
 
 linenumbers
 ~~~~~~~~~~~~~~~~
-    Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to False
+    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to False
     
     Parameter to enable/disable linenumbers for code in the image
 
 firstlinenumber
 ~~~~~~~~~~~~~~~~
-    Optional(`int<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to 1
+    Optional(`int <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to 1
 
     The number from which line numbers should start if linenumbers are enabled
     
 lineheight
 ~~~~~~~~~~~~~~~~~~
-    Optional(`int<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to 130
+    Optional(`int <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to 130
 
     Spacing between lines
 
 paddingvertical
 ~~~~~~~~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "56px"
+    Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "56px"
 
     Should be of the format "<number>px"
 
@@ -159,7 +177,7 @@ paddingvertical
 
 paddingHorizontal
 ~~~~~~~~~~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "56px"
+    Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "56px"
 
     Should be of the format "<number>px"
 
@@ -167,25 +185,25 @@ paddingHorizontal
 
 squaredImage
 ~~~~~~~~~~~~~
-    Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to False
+    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to False
 
     Enable/disable to get perfect square borders (Defaults to Rounded)
 
 watermark
 ~~~~~~~~~~~~~
-    Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to False
+    Optional(`bool https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to False
 
     Enable/Disable watermark of `Carbon`
 
 dropShadow
 ~~~~~~~~~~~~~
-    Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to True
+    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to True
 
     Enable/Disable shadow
 
 dropShadowBlurRadius
 ~~~~~~~~~~~~~~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to "68px"
+    Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "68px"
 
     Shadow Blur Radius
 
@@ -201,13 +219,13 @@ dropShadowOffsetY
 
 windowControls
 ~~~~~~~~~~~~~~~~
-    Optional(`bool<https://docs.python.org/3/library/functions.html#int>`) --> Defaults to True
+    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to True
 
     Enable/Disable Window Controls
 
 windowTheme
 ~~~~~~~~~~~~~
-    Optional(`str<https://docs.python.org/3/library/stdtypes.html#str>`) --> Defaults to None
+    Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to None
 
     Window Theme For the Image
 
@@ -417,10 +435,10 @@ Window Themes
 ~~~~~~~~~~~~~~
 Here is the list of available Window Themes
     
--none
--sharp
--bw
--boxy
+- none
+- sharp
+- bw
+- boxy
 
 License
 ---------
