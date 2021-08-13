@@ -46,14 +46,29 @@ Through pip
 
 .. code:: sh
 
-    pip install pycarbonsh
+    py -3 -m pip install pycarbonsh
 
 **Linux/MacOS**
 
 .. code:: sh
 
-    pip3 install pycarbonsh
+    python3 -m pip3 install pycarbonsh
 
+
+To install master branch
+#########################
+
+**Windows**
+
+.. code:: sh
+
+    py -3 -m pip install -U git+https://github.com/Pranav-Saxena/PyCarbonSh@master
+
+**Linux/MacOS**
+
+.. code:: sh
+
+    python3 -m pip3 install -U git+https://github.com/Pranav-Saxena/PyCarbonSh@master
 
 Manual Installation
 ####################
@@ -61,6 +76,9 @@ Manual Installation
 - ``setup.bat``
 - ``venv\scripts\activate``
 - ``pycarbonsh``
+
+.. note::
+    When you run pycarbonsh for the first time, it downloads the latest version of Chromium (~150MB) if it is not found on your system. If you don't prefer this behavior, ensure that a suitable Chrome binary is installed. One way to do this is to run pyppeteer-install command before prior to using this library.
 
 Getting Started
 ----------------------------
