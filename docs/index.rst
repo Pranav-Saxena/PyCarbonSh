@@ -250,8 +250,8 @@ Themes
 Here is the list of Available Themes!
     
 .. csv-table:: 
-   :file: /datafiles/themes.csv
-   :widths: 5
+   :file: /datafiles/langs.csv
+   :widths: 5,5
    :header-rows: 1
    
 
