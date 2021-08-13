@@ -77,8 +77,9 @@ Manual Installation
 - ``venv\scripts\activate``
 - ``pycarbonsh``
 
-.. note::
-    When you run pycarbonsh for the first time, it downloads the latest version of Chromium (~150MB) if it is not found on your system. If you don't prefer this behavior, ensure that a suitable Chrome binary is installed. One way to do this is to run pyppeteer-install command before prior to using this library.
+Usage
+#######
+    .. note:: **Note** :When you run pycarbonsh for the first time, it downloads the latest version of Chromium (~150MB) if it is not found on your system. If you don't prefer this behavior, ensure that a suitable Chrome binary is installed. One way to do this is to run pyppeteer-install command before prior to using this library.
 
 Getting Started
 ----------------------------
