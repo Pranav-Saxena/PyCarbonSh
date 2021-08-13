@@ -303,9 +303,9 @@ You Can You use any programming language in parameters (full name)
 and the accepted aliases of the languages are mentioned below:
      
 
-.. csv-table:: Languages
+.. csv-table:: 
    :file: /datafiles/langs.csv
-   :widths: 13, 13
+   :widths: 5,5
    :header-rows: 1
 
 
