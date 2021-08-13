@@ -145,13 +145,13 @@ language
 
 widthAdjustment
 ~~~~~~~~~~~~~~~~
-    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to True
+    Optional(`bool <https://docs.python.org/3/library/functions.html#bool>`_) --> Defaults to True
     
     Parameter to enable/disable autowithadjustment of image according to size of the code.
 
 linenumbers
 ~~~~~~~~~~~~~~~~
-    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to False
+    Optional(`bool <https://docs.python.org/3/library/functions.html#bool>`_) --> Defaults to False
     
     Parameter to enable/disable linenumbers for code in the image
 
@@ -185,19 +185,19 @@ paddingHorizontal
 
 squaredImage
 ~~~~~~~~~~~~~
-    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to False
+    Optional(`bool <https://docs.python.org/3/library/functions.html#bool>`_) --> Defaults to False
 
     Enable/disable to get perfect square borders (Defaults to Rounded)
 
 watermark
 ~~~~~~~~~~~~~
-    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to False
+    Optional(`bool <https://docs.python.org/3/library/functions.html#bool>`_) --> Defaults to False
 
-    Enable/Disable watermark of `Carbon`
+    Enable/Disable watermark of `Carbon <https://carbon.now.sh/>_`
 
 dropShadow
 ~~~~~~~~~~~~~
-    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to True
+    Optional(`bool <https://docs.python.org/3/library/functions.html#bool>`_) --> Defaults to True
 
     Enable/Disable shadow
 
@@ -219,7 +219,7 @@ dropShadowOffsetY
 
 windowControls
 ~~~~~~~~~~~~~~~~
-    Optional(`bool <https://docs.python.org/3/library/functions.html#int>`_) --> Defaults to True
+    Optional(`bool <https://docs.python.org/3/library/functions.html#bool>`_) --> Defaults to True
 
     Enable/Disable Window Controls
 
