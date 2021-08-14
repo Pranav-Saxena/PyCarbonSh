@@ -118,14 +118,14 @@ fontfamily
 Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "Hack" fontfamily
 
 The Font Family for code in the image
-Get List of Available FontFamilies `Here <addlink>`
+Get List of Available FontFamilies `Here <https://pycarbonsh.readthedocs.io/en/latest/#font-family>`_
 
 theme
 ~~~~~~
 Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "seti" theme
 
 Theme of the Image
-Get List of Available Themes `Here <addlink>`
+Get List of Available Themes `Here <https://pycarbonsh.readthedocs.io/en/latest/#themes>`_
 
 exportsize
 ~~~~~~~~~~~~~
@@ -141,7 +141,7 @@ language
 
     The Programming Language of the code in the image.
 
-    Get List of Available Languages `Here <addlink>`
+    Get List of Available Languages `Here <https://pycarbonsh.readthedocs.io/en/latest/#languages>`_
 
 widthAdjustment
 ~~~~~~~~~~~~~~~~
@@ -193,7 +193,7 @@ watermark
 ~~~~~~~~~~~~~
     Optional(`bool <https://docs.python.org/3/library/functions.html#bool>`_) --> Defaults to False
 
-    Enable/Disable watermark of `Carbon <https://carbon.now.sh/>_`
+    Enable/Disable watermark of `Carbon <https://carbon.now.sh/>`_
 
 dropShadow
 ~~~~~~~~~~~~~
@@ -229,7 +229,7 @@ windowTheme
 
     Window Theme For the Image
 
-    Get List of Available Window Themes `Here`
+    Get List of Available Window Themes `Here <https://pycarbonsh.readthedocs.io/en/latest/#window-themes>`_
 
 
 Available Options For Few Parameters
