@@ -239,9 +239,6 @@ Font Family
 ~~~~~~~~~~~~
 Here is the List of Available Font Families!!
     
-.. .. csv-table:: 
-..    :file: /datafiles/fontfamily.csv
-..    :header-rows: 1
 
 Themes
 ~~~~~~~~~
@@ -249,9 +246,9 @@ Here is the list of Available Themes!
     
 .. csv-table:: 
    :file: /datafiles/themesn.csv
+   :header-rows: 1
 
    
-    
 Languages
 ~~~~~~~~~
 You Can You use any programming language in parameters (full name)
