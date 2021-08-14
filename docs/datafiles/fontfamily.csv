@@ -1,17 +1,17 @@
-Font Family Name to be written in the, Actual Font Family
-parameter while calling the function,
-MonoLisa, MonoLisa
-dm,Dank Mono
-Anonymous+Pro,Anonymous Pro
-Droid+Sans+Mono,Droid Sans Mono
-Fantasque+Sans+Mono,Fantasque Sans Mono
-Fira+Code,Fira Code
+Font-Family-Name-to-be-written-in-the,Actual-Font-Family
+parameter-while-calling-the-function,
+MonoLisa,MonoLisa
+dm,DankMono
+Anonymous+Pro,AnonymousPro
+Droid+Sans+Mono,DroidSansMono
+Fantasque+Sans+Mono,FantasqueSansMono
+Fira+Code,FiraCode
 Hack,Hack
-IBM+Plex+Mono,IBM Plex Mono
+IBM+Plex+Mono,IBM-Plex-Mono
 Inconsolata,Inconsolata
 Iosevka,Iosevka
-JetBrains+Mono,JetBrains Mono
+JetBrains+Mono,JetBrains-Mono
 Monoid,Monoid
-Source+Code+Pro,Source Code Pro
-Space+Mono,Space Mono
-Ubuntu+Mono,Ubuntu Mono
+Source+Code+Pro,Source-Code-Pro
+Space+Mono,Space-Mono
+Ubuntu+Mono,Ubuntu-Mono
