@@ -240,7 +240,7 @@ Font Family
 Here is the List of Available Font Families!!
 
 .. csv-table:: 
-   :file: docs\datafiles\themesn.csv
+   :file: /datafiles/themesn.csv
    :header-rows: 1
 
 Themes
@@ -248,7 +248,7 @@ Themes
 Here is the list of Available Themes!
 
 .. csv-table:: 
-   :file: docs\datafiles\fontfamily.csv
+   :file: /datafiles/fontfamily.csv
    :header-rows: 2
    
 Languages
@@ -258,8 +258,7 @@ You Can You use any programming language in parameters (full name)
 and the accepted aliases of the languages are mentioned below:
      
 .. csv-table:: 
-   :file: docs\datafiles\langs.csv
-   :width: 5,5
+   :file: /datafiles/langs.csv
    :header-rows: 1
 
 
