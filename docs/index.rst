@@ -244,9 +244,9 @@ Themes
 ~~~~~~~~~
 Here is the list of Available Themes!
     
-.. csv-table:: 
-   :file: /datafiles/themesn.csv
-   :header-rows: 1
+.. .. csv-table:: 
+..    :file: /datafiles/themesn.csv
+..    :header-rows: 1
 
    
 Languages
