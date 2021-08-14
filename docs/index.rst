@@ -241,9 +241,7 @@ Here is the List of Available Font Families!!
     
 .. csv-table:: 
    :file: /datafiles/fontfamily.csv
-   :widths: 33,19
-   :header-rows: 2
-
+   :header-rows: 1
 
 Themes
 ~~~~~~~~~
@@ -251,11 +249,8 @@ Here is the list of Available Themes!
     
 .. csv-table:: 
    :file: /datafiles/themes.csv
-   :width: 18
    :header-rows: 1
    
-
-
     
 Languages
 ~~~~~~~~~
@@ -266,7 +261,7 @@ and the accepted aliases of the languages are mentioned below:
 
 .. csv-table:: 
    :file: /datafiles/langs.csv
-   :widths: 5,5
+   :width: 5,5
    :header-rows: 1
 
 
