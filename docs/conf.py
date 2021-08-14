@@ -1,6 +1,6 @@
 #
-# discord.py documentation build configuration file, created by
-# sphinx-quickstart on Fri Aug 21 05:43:30 2015.
+# PyCarbonSH documentation build configuration file, created by
+# sphinx-quickstart on Sat Aug 14 11:43:30 2021.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -180,7 +180,7 @@ html_context = {
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-# html_favicon = './images/discord_py_logo.ico'
+# html_favicon = './images/pycarbonshlogo.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
