@@ -259,7 +259,6 @@ and the accepted aliases of the languages are mentioned below:
      
 .. csv-table:: 
    :file: /datafiles/langs.csv
-   :width: 5,5
    :header-rows: 1
 
 
