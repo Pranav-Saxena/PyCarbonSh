@@ -211,7 +211,7 @@ dropShadowBlurRadius
 
 dropShadowOffsetY
 ~~~~~~~~~~~~~~~~~~
-    Optionalstr() --> Defaults to "20px"
+    Optional(`str <https://docs.python.org/3/library/stdtypes.html#str>`_) --> Defaults to "20px"
 
     Shadow Offset Y
 

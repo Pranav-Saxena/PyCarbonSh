@@ -75,6 +75,7 @@ async def generatecarbon(path="",code="Made with ❤ by Pranav Saxena",bg ="rgba
     if path == "":
         path = "carbon.png"
     else:
+        path = path.replace("\\","/")
         path = f"{path}/carbon.png"
     await element.screenshot({'path': f"{path}"})
     await browser.close()
