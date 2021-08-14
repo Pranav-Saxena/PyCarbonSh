@@ -82,7 +82,7 @@ The parameters available for customization are listed below!!
 
 path
 ~~~~~
-Required(str)
+Required(`str <https://docs.python.org/3/library/stdtypes.html#str>`_)
 
 The Location where the filed will be saved (don't add filename to it)
 
