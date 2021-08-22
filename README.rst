@@ -93,6 +93,11 @@ A quick and easy example to get started with PyCarbonSh
     loop = asyncio.get_event_loop()
     loop.run_until_complete(generatecarbon(code="Made with ❤ by Pranav Saxena"))
 
+
+Support Me
+-----------
+Support Me by adding my bot to your server :) `Invite Inferno Here <https://discord.com/api/oauth2/authorize?client_id=808690602358079508&permissions=261926419703&scope=bot%20applications.commands>`_
+
 Contribute
 ----------------------------
 Any contributions you make are **greatly appreciated**.
