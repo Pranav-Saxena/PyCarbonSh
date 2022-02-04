@@ -72,13 +72,13 @@ To install master branch
 
 Manual Installation
 ####################
-.. note:: Ensure that an up-to-date version of setuptools is installed. ``python -m pip install --upgrade setuptools``
+    .. note:: Ensure that an up-to-date version of setuptools is installed. ``python -m pip install --upgrade setuptools``
 
 - ``git clone https://github.com/Pranav-Saxena/PyCarbonSh/``
 - ``cd PyCarbonSh``
 - ``python3 setup.py install`` 
 
-.. note:: Use ``sudo python3 setup.py install`` on linux if some error pops up
+    .. note:: Use ``sudo python3 setup.py install`` on linux if some error pops up
 
 Usage
 #######
