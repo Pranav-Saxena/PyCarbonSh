@@ -52,7 +52,7 @@ Through pip
 
 .. code:: sh
 
-    python3 -m pip3 install pycarbonsh
+    python3 -m pip install pycarbonsh
 
 
 To install master branch
@@ -68,14 +68,17 @@ To install master branch
 
 .. code:: sh
 
-    python3 -m pip3 install -U git+https://github.com/Pranav-Saxena/PyCarbonSh@master
+    python3 -m pip install -U git+https://github.com/Pranav-Saxena/PyCarbonSh@master
 
 Manual Installation
 ####################
+.. note:: Ensure that an up-to-date version of setuptools is installed. ``python -m pip install --upgrade setuptools``
+
 - ``git clone https://github.com/Pranav-Saxena/PyCarbonSh/``
-- ``setup.bat``
-- ``venv\scripts\activate``
-- ``pycarbonsh``
+- ``cd PyCarbonSh``
+- ``python3 setup.py install`` 
+
+.. note:: Use ``sudo python3 setup.py install`` on linux if some error pops up
 
 Usage
 #######
