@@ -2,7 +2,7 @@
 PyCarbonSh 
 ***********
 
-.. image:: https://cdn.discordapp.com/attachments/862939982837317672/875030619606888458/pycarbonsh.png
+.. image:: pycarbonsh.png
     :align: center
     :target: https://github.com/Pranav-Saxena/PyCarbonSh/
     :alt: PyCarbonSh
